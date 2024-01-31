@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Duck Pong</title>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body class="relative">
+		<canvas id="app"></canvas>
+		<section
+			id="MenuUI"
+			class="hidden flex-col absolute bottom-2/3 left-1/2 -translate-x-1/2 gap-2"
+		>
+			<h1 class="text-2xl">Duck Pong</h1>
+			<button
+				class="bg-slate-700 text-white rounded-md w-max px-3 py-1 mx-auto"
+			>
+				¡Jugar!
+			</button>
+		</section>
+		<script type="module" src="/src/main.ts"></script>
+	</body>
+</html>
